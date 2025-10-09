@@ -1,6 +1,6 @@
 import "./styles/style.css";
-import Header from "./components/HeaderPage";
-import FooterPage from "./components/FooterPage";
+import Header from "../components/HeaderPage";
+import FooterPage from "../components/FooterPage";
 function HomePage() {
   return (
     <main>
