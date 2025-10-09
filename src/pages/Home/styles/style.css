@@ -1,26 +1,2 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body{
-  background-color: rgb(99, 94, 94);
-  color: white;
-}
 
-.header-pg {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(78, 78, 63);
-}
-
-.logo-vca{
-  max-width:  5rem;
-  max-height: 5rem;
-}
-
-.section-main {
-  
-}
