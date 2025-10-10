@@ -2,6 +2,8 @@ import { FaShoppingCart } from "react-icons/fa"
 
 function ButtonCar() {
     return <button style={{
+      color:"black",
+      fontFamily: "--font-body",
       backgroundColor: "#FFD700",
       border: "none",
       borderRadius: "8px",
@@ -12,7 +14,7 @@ function ButtonCar() {
       gap: "8px"
     }}>
       <FaShoppingCart size={12} color="#000" />
-      <span>Carrinho</span>
+      <span >Carrinho</span>
     </button>
 }
 
