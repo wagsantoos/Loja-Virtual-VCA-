@@ -7,7 +7,7 @@ function FooterPage() {
       <div className="flex items-center flex-col ">
         <div className="text-center">
           <div className="p-5">
-            <h3>Loja VCA </h3>
+            <h3 className="text-yellow-400">Loja VCA </h3>
             <p className="text-xs ">
               Moda esportiva conforto e estilo em um só lugar
             </p>
@@ -30,7 +30,7 @@ function FooterPage() {
       </div>
       <div className="flex justify-between items-center p-5">
         <div>
-          <h3>Formas de pagamento</h3>
+          <h3 >Formas de pagamento</h3>
           <div className="flex gap-4 w-10 h-10 items-center">
             <img
               src="https://static.centauro.com.br/store/1-89-6/assets/images/payments/credit-cards/hipercard.svg"
