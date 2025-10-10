@@ -5,13 +5,13 @@ function ButtonCar() {
       backgroundColor: "#FFD700",
       border: "none",
       borderRadius: "8px",
-      padding: "10px 16px",
+      padding: "5px 10px",
       cursor: "pointer",
       display: "flex",
       alignItems: "center",
       gap: "8px"
     }}>
-      <FaShoppingCart size={20} color="#000" />
+      <FaShoppingCart size={12} color="#000" />
       <span>Carrinho</span>
     </button>
 }
