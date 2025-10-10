@@ -3,7 +3,7 @@ import Header from "../components/HeaderPage";
 import FooterPage from "../components/FooterPage";
 function HomePage() {
   return (
-    <main>
+    <main className="p-0 m-0 ">
       <Header></Header>
       <section className="section-main">
         <div style={{display:"flex",
