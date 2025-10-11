@@ -80,7 +80,7 @@ function FooterPage() {
             >
               <FaWhatsapp />
             </a>
-            <a href="" target="_blank" className="hover:text-black text-2xl">
+            <a href="" target="_blank" className="hover:text-blue-500 text-2xl">
               <FaTiktok />
             </a>
           </div>
