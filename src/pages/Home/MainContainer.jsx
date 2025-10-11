@@ -21,7 +21,7 @@ function MainContainer() {
         <ProductCard title={"Meia"}   image={meiaVca}/>
         <ProductCard title={"Bolsa (Jumbo)"} image={bolsaJumboVca} />
         <ProductCard title={"Bolsa (Sacochila)"} image={sacochilaVca} />
-        <ProductCard title={"Porta Chuteira"} image={portaChuteiraVca} />
+        <ProductCard title={"Porta Tênis"} image={portaChuteiraVca} />
       </div>
     </section>
   );
