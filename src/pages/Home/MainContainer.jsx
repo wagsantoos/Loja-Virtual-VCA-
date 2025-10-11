@@ -17,8 +17,8 @@ function MainContainer() {
         <ProductCard title={"Casaco"} image={casacoVca} />
         <ProductCard title={"Camisa Preta"} image={camisaTorcedorPreta}/>
         <ProductCard title={"Camisa Branca"} image={camisaTorcedorBranca}/>
-        <ProductCard title={"Garrafa (900ml)"} image={garrafaVca}/>
         <ProductCard title={"Meia"}   image={meiaVca}/>
+        <ProductCard title={"Garrafa (900ml)"} image={garrafaVca}/>
         <ProductCard title={"Bolsa (Jumbo)"} image={bolsaJumboVca} />
         <ProductCard title={"Bolsa (Sacochila)"} image={sacochilaVca} />
         <ProductCard title={"Porta Tênis"} image={portaChuteiraVca} />
