@@ -1,12 +1,10 @@
 // ProductCard.jsx
 import { FaStar, FaRegStar, FaShoppingCart, FaHeart } from "react-icons/fa";
-import casacoVca from "../../../assets/img/casaco-vca.jpg"
 
 
 export default function ProductCard({
   image,
   title,
-  brand = "VCA",
   rating = 4.5,
   price = 259.9,
   oldPrice,
@@ -28,10 +26,10 @@ export default function ProductCard({
       )}
 
       {/* imagem (sem distorcer) */}
-      <div className="aspect-[4/3] w-full overflow-hidden rounded-lg bg-black/60">
+      <div className="aspect-[4/3] w-full overflow-hidden rounded-lg bg-white">
         <img
-          src={casacoVca}
-          alt="Casaco"
+          src={image}
+          alt={title}
           className="h-full w-full object-contain transition duration-300 group-hover:scale-105"
           loading="lazy"
         />
@@ -39,8 +37,8 @@ export default function ProductCard({
 
       {/* infos */}
       <div className="mt-3 space-y-1">
-        <p className="text-xs uppercase tracking-wide text-white/50">{brand}</p>
-        <h3 className="line-clamp-2 text-sm font-semibold text-white">{title}</h3>
+        
+        <h3 className="line-clamp-2 text-base font-semibold text-white">{title}</h3>
 
         {/* estrelas */}
         <div className="flex items-center gap-1 text-yellow-400">
@@ -72,16 +70,16 @@ export default function ProductCard({
       <div className="mt-3 flex items-center gap-2">
         <button
           onClick={onAddToCart}
-          className="inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-yellow-500 px-3 py-2 text-sm font-semibold text-black transition hover:bg-yellow-400"
+          className="inline-flex flex-1 cursor-pointer items-center justify-center gap-2 rounded-lg bg-yellow-500 px-3 py-2 text-sm font-semibold text-black transition hover:bg-yellow-400"
         >
           <FaShoppingCart /> Comprar
         </button>
         <button
           onClick={onFavorite}
-          className="inline-flex items-center justify-center rounded-lg border border-white/15 p-2 text-white/80 transition hover:border-white/30 hover:text-white"
+          className="inline-flex cursor-pointer  items-center justify-center rounded-lg border border-white/15 p-2 text-white/80 transition hover:border-white/30 hover:text-white"
           aria-label="Favoritar"
         >
-          <FaHeart />
+          <FaHeart className="hover:text-green-500"/>
         </button>
       </div>
     </article>
