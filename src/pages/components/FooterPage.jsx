@@ -1,4 +1,4 @@
-import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import LogoVca from "../../assets/img/logo-vca.png";
 
 function FooterPage() {
@@ -30,7 +30,7 @@ function FooterPage() {
       </div>
       <div className="flex justify-between items-center p-5">
         <div>
-          <h3 >Formas de pagamento</h3>
+          <h3>Formas de pagamento</h3>
           <div className="flex gap-4 w-10 h-10 items-center">
             <img
               src="https://static.centauro.com.br/store/1-89-6/assets/images/payments/credit-cards/hipercard.svg"
@@ -67,7 +67,7 @@ function FooterPage() {
           <h3 className="">Redes sociais</h3>
           <div className="flex justify-center gap-3">
             <a
-              href="https://www.instagram.com/wagsantoos?igsh=MTRjN3l5dzNvbDExYw=="
+              href="https://www.instagram.com/vcavolei/"
               target="_blank"
               className="hover:text-pink-500 text-2xl"
             >
@@ -80,8 +80,19 @@ function FooterPage() {
             >
               <FaWhatsapp />
             </a>
-            <a href="" target="_blank" className="hover:text-blue-500 text-2xl">
+            <a
+              href="https://www.tiktok.com/@vca251?_t=ZS-90SdLIj5cHg&_r=1"
+              target="_blank"
+              className="hover:text-blue-500 text-2xl"
+            >
               <FaTiktok />
+            </a>
+            <a
+              href="https://www.youtube.com/@voleiclubeararuama5066"
+              target="_blank"
+              className="hover:text-red-500 text-2xl"
+            >
+              <FaYoutube />
             </a>
           </div>
         </div>
