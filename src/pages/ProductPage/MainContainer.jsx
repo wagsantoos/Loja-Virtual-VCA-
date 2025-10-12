@@ -1,51 +1,66 @@
 import casacoVca from "../../assets/img/casaco-vca.jpg";
-import casacoVcadd from "../../assets/img/casaco-vca-2.png"
-import camisaPreta from "../../assets/img/camisa-preta-vca.png"
-import camisaBranca from "../../assets/img/camisa-branca-vca.png"
-import { FaStar, FaRegStar, FaShoppingCart, FaHeart } from "react-icons/fa";
+import camisaBranca from "../../assets/img/camisa-branca-vca.png";
+import PriceDef from "./components/Price/index";
+import Stars from "./components/Stars/index";
+import Carrosel from "./components/Carrosel/index";
+import ButtonsSizes from "./components/ButtonsSizes";
 export default MainContainer;
 
-function MainContainer({ rating = 4.5 }) {
-  const full = Math.floor(rating);
-  const half = rating - full >= 0.5;
-
+function MainContainer() {
   return (
     <>
-      <section className=" flex justify-center h-svh">
-        <section className=" w-svh flex justify-center">
-          <div className=" flex  flex-wrap justify-center">
-            <img src={casacoVca} className="w-80 h-80 p-1 object-contain object-cover rounded-xl m-1" ></img>
-            <img src={casacoVcadd} className="w-80 h-80 p-1 object-contain object-cover rounded-xl m-1"></img>
-            
-            <img
-              src={camisaPreta}
-              className="w-80 h-80 p-1 rounded-xl m-1 object-cover -mt-75"
-            ></img>
-            <img
-              src={camisaBranca}
-              className="w-80 h-80 p-1 rounded-xl m-1 object-cover -mt-75"
-            ></img>
-
-            
+      <section className="bg-red-700 flex justify-center h-[100%] p-5">
+        <section className="bg-green-500 w-svh  overflow-hidden ">
+          <div className="bg-amber-300 flex justify-center h-6">
+            <h3>Camisa do VCA - Jogador</h3>
           </div>
-          <div className=" w-130 ">
-            <h3 className="mt-10">Camisa do VCA Jogador</h3>
+          <div id="slider" className="bg-purple-600 flex justify-center">
+            <Carrosel className="" images={[casacoVca, camisaBranca]} />
+          </div>
 
-            
-            <div className="cursor-pointer flex items-center gap-1 text-yellow-400 ">
-              {Array.from({ length: 5 }).map((_, i) => {
-                if (i < full) return <FaStar key={i} />;
-                if (i === full && half)
-                  return <FaStar key={i} className="opacity-50" />;
-                return <FaRegStar key={i} className="opacity-50" />;
-              })}
-              <span className="ml-1 text-[10px] text-black">
-                <p className="mt-2 hover:underline cursor-pointer">Confortável para uso diário</p>
-              </span>
+          <section>
+            <div className="bg-blue-300 w-[100%] flex">
+              <div>
+                <h4 className="font-bold text-[14px]">Sobre o produto</h4>
+                <p className="text-[12px]">
+                  Camisa super confortável para uso diário e pra treinos de alta
+                  performace
+                </p>
+                <h4 className="font-bold text-[14px]">
+                  CARACTERÍSTICAS E BENEFÍCIOS
+                </h4>
+                <p className="text-[12px]">
+                  Todos os produtos originais da PUMA possuem tag com selo
+                  holográfico com distintivo do clube, que garantem a qualidade
+                  e originalidade do produto.
+                </p>
+                <h4 className="font-bold text-[14px]">DETALHES</h4>
+                <p className="text-[12px]">
+                  Regular fit <br />
+                  Gola em cor contrastante <br />
+                  Manga curta com punho contrastante <br />
+                  Recortes laterais <br />
+                  Logo PUMA bordado do lado direito do peito
+                  <br />
+                </p>
+              </div>
+
+              <div className="bg-gray-700 w-6xl flex flex-col items-center ">
+                <div className="bg-fuchsia-300 min-h-10 flex ml-35">
+                  <PriceDef />
+                </div>
+                  
+                <div className="bg-blue-300 min-h-10 flex ml-16">
+                  <Stars />
+                </div>
+                
+                <div>
+                <ButtonsSizes/>
+                </div>
+
+              </div>
             </div>
-            
-            
-          </div>
+          </section>
         </section>
       </section>
     </>
