@@ -1,10 +1,9 @@
 import { FaShoppingCart } from "react-icons/fa"
 
 function ButtonCar() {
-    return <button style={{
+    return <button  className="bg-yellow-500 transition hover:bg-yellow-400" style={{
       color:"black",
       fontFamily: "--font-body",
-      backgroundColor: "#FFD700",
       border: "none",
       borderRadius: "8px",
       padding: "5px 10px",
