@@ -5,9 +5,9 @@ import MainContainer from "./MainContainer"
 function HomePage() {
   return (
     <main >
-      <Header></Header>
-      <MainContainer></MainContainer>
-      <FooterPage></FooterPage>
+      <Header/>
+      <MainContainer/>
+      <FooterPage/>
     </main>
   );
 }
