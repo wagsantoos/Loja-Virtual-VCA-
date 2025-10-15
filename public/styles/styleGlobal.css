@@ -27,3 +27,8 @@ p {
   font-family: var(--font-body);
   margin-bottom: 0.4rem;
 }
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
