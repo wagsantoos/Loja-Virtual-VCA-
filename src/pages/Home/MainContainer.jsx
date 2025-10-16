@@ -3,8 +3,6 @@ import portaChuteiraVca from "../../assets/img/porta-chuteira-vca.png";
 import casacoVca from "../../assets/img/casaco-vca-2.png";
 import sacochilaVca from "../../assets/img/sacochila-vca.png";
 import bolsaJumboVca from "../../assets/img/bolsa-jumbo-vca.png";
-// import camisaBrancaVca from "../../assets/img/camisa-branca-vca.png";
-// import camisaPretaVca from "../../assets/img/camisa-preta-vca.png";
 import camisaTorcedorPreta from "../../assets/img/camisa-torcedor-vca-preta.png";
 import camisaTorcedorBranca from "../../assets/img/camisa-torcedor-vca-branca.png";
 import garrafaVca from "../../assets/img/garrafa-vca.png";
