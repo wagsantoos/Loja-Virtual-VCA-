@@ -55,7 +55,7 @@ function ProductPage() {
               </li>
             </ul>
             <div className="flex justify-center flex-col">
-              <button className="bg-yellow-500  rounded-md text-2xl font-bold p-2 mt-2 cursor-pointer hover:bg-yellow-600 hover:text-[#0d0d0d] ">Finalizar</button>
+              <button className="bg-yellow-500  rounded-md text-2xl font-bold p-2 mt-2 cursor-pointer transition duration-500 hover:bg-yellow-600 hover:text-[#0d0d0d]">Finalizar</button>
               <button className="mt-2 cursor-pointer text-x1 text-yellow-400 font-bold hover:text-yellow-600">Buscar mais produtos</button>
             </div>
           </div>

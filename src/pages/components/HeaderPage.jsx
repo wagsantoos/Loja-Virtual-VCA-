@@ -12,7 +12,7 @@ function Header() {
           alt="Logo do time vôlei clube araruama"
           className="w-16 h-16"
         />
-        <button className="bg-yellow-500 rounded-xl text-[#0d0d0d] w-10 h-10 flex justify-center items-center cursor-pointer hover:bg-yellow-400 ">
+        <button className="bg-yellow-500 rounded-xl text-[#0d0d0d] w-10 h-10 flex justify-center items-center cursor-pointer transition duration-300 hover:bg-yellow-400 hover:text-amber-50">
           <FaHome />
         </button>
       </div>
