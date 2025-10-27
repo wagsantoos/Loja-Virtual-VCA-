@@ -24,7 +24,7 @@ function Header() {
       </div>
       <nav className="flex items-center gap-2">
         <Link to={"/"}>
-          <button className="bg-yellow-500 rounded-xl p-1 text-[#0d0d0d]  gap-2 flex justify-center items-center cursor-pointer transition duration-300 hover:bg-yellow-400 hover:text-amber-50">
+          <button  className="px-4 py-1 rounded-lg text-gray-800 font-semibold bg-gradient-to-r from-yellow-500 to-white hover:from-yellow-300 hover:to-yellow-100 transition   p-1 font-[--font-body]   gap-2 flex justify-center items-center cursor-pointer ">
             <FaHome /> 
             <span>Início</span>
           </button>

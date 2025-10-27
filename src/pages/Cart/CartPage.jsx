@@ -2,6 +2,7 @@ import camisaPretaModelo from "../../assets/img/modelo-camisa-preta.png";
 import CardProductCar from "./components/CardProductCart";
 import camisaBrancaModelo from "../../assets/img/modelo-camisa-branca.png";
 import bolsaJumboVca from "../../assets/img/bolsa-jumbo-vca.png";
+import { Link } from "react-router-dom";
 
 function ProductPage() {
   return (
@@ -58,9 +59,11 @@ function ProductPage() {
             <button className="bg-yellow-500  rounded-md text-2xl font-bold p-2 mt-2 cursor-pointer transition duration-500 hover:bg-yellow-600 hover:text-[#0d0d0d]">
               Finalizar
             </button>
+            <Link to={"/"}>
             <button className="mt-2 cursor-pointer text-x1 text-yellow-400 font-bold hover:text-yellow-600">
               Buscar mais produtos
-            </button>
+            </button></Link>
+            
           </div>
         </div>
       </div>
