@@ -17,13 +17,13 @@ function FooterPage() {
               <strong>CNPJ:</strong> 00.000.000/0000-00
             </p>
             <p>
-              <strong>Endereço:</strong> --------------------------
+              <strong>Endereço: </strong>R. Conselheiro Macedo Soares N°165 - Centro
             </p>
             <p>
-              <strong>E-mail:</strong>----------@-----
+              <strong>E-mail: </strong>vcavoleiclube@gmail.com 
             </p>
             <p>
-              <strong>Telefone:</strong>(00) 0 0000-000
+              <strong>Telefone: </strong>(22) 9 8165-1766
             </p>
           </div>
         </div>

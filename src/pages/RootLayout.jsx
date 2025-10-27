@@ -6,7 +6,7 @@ export default function RootLayout() {
   return (
     <>
       <HeaderPage />
-      <main>
+      <main >
         <Outlet />
       </main>
       <FooterPage />

@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 function ProductPage() {
   return (
-    <section className="min-h-screen grid  grid-cols-[1.5fr_1fr]  m-5 bg-[#e8e5da]">
-      <div>
+    <section className="bg-[#e8e5da] min-h-screen grid  grid-cols-[1.5fr_1fr]  p-5 ">
+      <div >
         <CardProductCar
           title={"Camisa Torcedor "}
           color="Preta"
