@@ -15,6 +15,7 @@ export default function Sizes() {
       return
     } else {
       alert(`Você selecionou o tamanho ${selectedSize} 🛒`);
+      
     }
   };
 
